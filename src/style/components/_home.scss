@@ -1,0 +1,32 @@
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: url('../assets/img/bg-curvy-desktop.svg') no-repeat bottom;
+  position: relative;
+  top: 20px;
+}
+
+.showcase .btn {
+  margin-bottom: 1.2rem;
+}
+
+.showcase-body {
+  display: block;
+  width: 40%;
+}
+
+.showcase-body h2 {
+  font-size: 40px;
+  margin: auto;
+  font-family: Raleway - Bold;
+}
+
+.showcase-body p {
+  font-size: 20px;
+  margin: auto;
+  width: 90%;
+  font-family: OpenSans;
+}

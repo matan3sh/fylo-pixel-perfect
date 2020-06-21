@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  margin-top: 3rem;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  line-height: 19px;
+  font-size: 16px;
+  font-family: Raleway;
+}
+
+.navigation {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.navigation a {
+  margin: 0 2rem;
+  padding: 0.8rem;
+  transition: 0.1s;
+}
+
+.navigation a:hover {
+  background-color: $button-color;
+  border-radius: 20px;
+  cursor: pointer;
+}

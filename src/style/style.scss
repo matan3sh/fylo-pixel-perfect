@@ -1,0 +1,14 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/typography';
+
+// Basic
+@import 'basic/base';
+@import 'basic/button';
+
+// Components
+@import 'components/navbar';
+@import 'components/home';
+@import 'components/services';
+@import 'components/team';
+@import 'components/footer';

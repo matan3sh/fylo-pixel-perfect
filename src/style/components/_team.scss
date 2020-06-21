@@ -1,0 +1,96 @@
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+  background-color: #181f2b;
+}
+
+.team-body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  text-align: left;
+  margin-left: 20rem;
+  grid-gap: 2rem;
+}
+
+.team-desc {
+  margin: auto 0;
+}
+
+.team-desc h2 {
+  width: 50%;
+  font-family: Raleway - Bold;
+  font-size: 40px;
+}
+
+.team-desc p {
+  font-family: OpenSans;
+  font-size: 16px;
+  width: 70%;
+  margin: 2rem 0;
+}
+
+.team-active {
+  color: $button-color;
+  border-bottom: 2px $button-color double;
+  padding-bottom: 10px;
+  padding: 0.5rem 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.team-active img {
+  position: absolute;
+  bottom: 0;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem;
+  margin-left: 20rem;
+  width: 65%;
+  grid-gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.team-card {
+  background-color: #202a3c;
+  padding: 1.8rem;
+  box-shadow: -1px 2px 5px -4px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.team-card p {
+  font-family: OpenSans;
+  font-size: 14px;
+  text-align: left;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  margin: 2rem 1rem 0;
+}
+
+.team-member img {
+  width: 44px;
+  border-radius: 50%;
+}
+
+.team-member div {
+  margin: auto 0;
+}
+
+.member-name {
+  font-family: OpenSans - Bold !important;
+  font-size: 10px !important;
+}
+
+.member-role {
+  font-family: OpenSans !important;
+  font-size: 7px !important;
+}
